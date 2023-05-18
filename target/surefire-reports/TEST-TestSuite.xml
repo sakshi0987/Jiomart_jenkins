@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="45.32" tests="9" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.boot.library.path" value="C:\Users\skumari\Desktop\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\skumari\eclipse-workspace\JioMart"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\skumari\eclipse-workspace\JioMart"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\skumari\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\skumari\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5282056155614327147.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\skumari\Desktop\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/skumari/Desktop/eclipse/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/skumari/Desktop/eclipse/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Zulu\zulu-17\bin\;C:\Program Files\Zulu\zulu-8\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Maven_Home\apache-maven-3.9.1\bin;C:\Program Files\Git\cmd;C:\Users\skumari\AppData\Local\Microsoft\WindowsApps;;C:\Users\skumari\Desktop\eclipse\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\skumari"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="skumari"/>
+    <property name="java.class.path" value="C:\Users\skumari\Desktop\eclipse\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="C:\Users\skumari\Desktop\eclipse\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\skumari\eclipse-workspace\JioMart\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="m2e.build.project.data.socket.port" value="50107"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="logoverify" classname="navbar_buttons.Electronics_moduletest" time="1.97"/>
+  <testcase name="sort_item" classname="navbar_buttons.Electronics_moduletest" time="3.535"/>
+  <testcase name="add_item1" classname="navbar_buttons.Electronics_moduletest" time="9.575"/>
+  <testcase name="add_item2" classname="navbar_buttons.Electronics_moduletest" time="3.745"/>
+  <testcase name="add_item3" classname="navbar_buttons.Electronics_moduletest" time="7.595">
+    <failure message="element not interactable&#10;  (Session info: chrome=113.0.5672.94)&#10;Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [287f96eee6b5b24fd039038cf6a7c6b9, clickElement {id=8C26CA865E98844D9341C07C0FC4B241_element_635}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\skumari\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50112/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (287f96eee6b5b24fd039038cf6a7c6b9)] -&gt; xpath: //button[@type=&apos;button&apos; and text()=&apos; Skip &amp; Continue &apos;]]&#10;Session ID: 287f96eee6b5b24fd039038cf6a7c6b9" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [287f96eee6b5b24fd039038cf6a7c6b9, clickElement {id=8C26CA865E98844D9341C07C0FC4B241_element_635}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\skumari\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50112/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (287f96eee6b5b24fd039038cf6a7c6b9)] -> xpath: //button[@type='button' and text()=' Skip & Continue ']]
+Session ID: 287f96eee6b5b24fd039038cf6a7c6b9
+	at navbar_buttons.Electronics_moduletest.add_item3(Electronics_moduletest.java:75)
+]]></failure>
+  </testcase>
+  <testcase name="gotocart" classname="navbar_buttons.Electronics_moduletest" time="3.199"/>
+  <testcase name="print_subtotal" classname="navbar_buttons.Electronics_moduletest" time="2.047">
+    <failure message="expected [JioMart: India&apos;s online shopping destination] but found [JioMart Electronic Online Shopping]" type="java.lang.AssertionError">java.lang.AssertionError: expected [JioMart: India's online shopping destination] but found [JioMart Electronic Online Shopping]
+	at navbar_buttons.Electronics_moduletest.print_subtotal(Electronics_moduletest.java:91)
+</failure>
+    <system-out><![CDATA[sub total of all items : 1
+Your Cart
+2
+Order Review
+3
+Payment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Apply Coupon
+View All
+Login to see best offers & promotions
+Login
+Payment Details
+MRP Total
+?48,795.00
+Product Discount
+- ?7,758.00
+Delivery Fee
+FREE  ?40.00
+Total
+?41,037.00
+You Saved ?7,758.00
+Place Order
+]]></system-out>
+  </testcase>
+  <testcase name="beauty_module" classname="navbar_buttons.Electronics_moduletest" time="2.846"/>
+  <testcase name="gotocart1" classname="navbar_buttons.Electronics_moduletest" time="3.478"/>
+</testsuite>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-18T15:09:22 IST" name="Suite" finished-at="2023-05-18T15:10:06 IST" duration-ms="43438">
+    <groups>
+    </groups>
+    <test started-at="2023-05-18T15:09:22 IST" name="Test" finished-at="2023-05-18T15:10:06 IST" duration-ms="43438">
+      <class name="navbar_buttons.Electronics_moduletest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:22 IST" name="startTest" finished-at="2023-05-18T15:09:22 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="Homepage()[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:22 IST" name="Homepage" finished-at="2023-05-18T15:09:28 IST" duration-ms="5398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method signature="logoverify()[pri:1, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:28 IST" name="logoverify" finished-at="2023-05-18T15:09:30 IST" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoverify -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:30 IST" name="getResult" finished-at="2023-05-18T15:09:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoverify status=SUCCESS method=Electronics_moduletest.logoverify()[pri:1, instance:navbar_buttons.Electronics_moduletest@34f7cfd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="sort_item()[pri:2, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:30 IST" name="sort_item" finished-at="2023-05-18T15:09:33 IST" duration-ms="3534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort_item -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:33 IST" name="getResult" finished-at="2023-05-18T15:09:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sort_item status=SUCCESS method=Electronics_moduletest.sort_item()[pri:2, instance:navbar_buttons.Electronics_moduletest@34f7cfd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="add_item1()[pri:3, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:33 IST" name="add_item1" finished-at="2023-05-18T15:09:43 IST" duration-ms="9575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_item1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:43 IST" name="getResult" finished-at="2023-05-18T15:09:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add_item1 status=SUCCESS method=Electronics_moduletest.add_item1()[pri:3, instance:navbar_buttons.Electronics_moduletest@34f7cfd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="add_item2()[pri:4, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:43 IST" name="add_item2" finished-at="2023-05-18T15:09:47 IST" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_item2 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:47 IST" name="getResult" finished-at="2023-05-18T15:09:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add_item2 status=SUCCESS method=Electronics_moduletest.add_item2()[pri:4, instance:navbar_buttons.Electronics_moduletest@34f7cfd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="add_item3()[pri:5, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:47 IST" name="add_item3" finished-at="2023-05-18T15:09:54 IST" duration-ms="7580" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [287f96eee6b5b24fd039038cf6a7c6b9, clickElement {id=8C26CA865E98844D9341C07C0FC4B241_element_635}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\skumari\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50112/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (287f96eee6b5b24fd039038cf6a7c6b9)] -> xpath: //button[@type='button' and text()=' Skip & Continue ']]
+Session ID: 287f96eee6b5b24fd039038cf6a7c6b9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [287f96eee6b5b24fd039038cf6a7c6b9, clickElement {id=8C26CA865E98844D9341C07C0FC4B241_element_635}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\skumari\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50112/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (287f96eee6b5b24fd039038cf6a7c6b9)] -> xpath: //button[@type='button' and text()=' Skip & Continue ']]
+Session ID: 287f96eee6b5b24fd039038cf6a7c6b9
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at navbar_buttons.Navbar_actions.add_item3(Navbar_actions.java:61)
+at navbar_buttons.Electronics_moduletest.add_item3(Electronics_moduletest.java:75)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_item3 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:54 IST" name="getResult" finished-at="2023-05-18T15:09:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add_item3 status=FAILURE method=Electronics_moduletest.add_item3()[pri:5, instance:navbar_buttons.Electronics_moduletest@34f7cfd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="gotocart()[pri:6, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:54 IST" name="gotocart" finished-at="2023-05-18T15:09:57 IST" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotocart -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:57 IST" name="getResult" finished-at="2023-05-18T15:09:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gotocart status=SUCCESS method=Electronics_moduletest.gotocart()[pri:6, instance:navbar_buttons.Electronics_moduletest@34f7cfd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="print_subtotal()[pri:7, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:09:57 IST" name="print_subtotal" finished-at="2023-05-18T15:10:00 IST" duration-ms="2046" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [JioMart: India's online shopping destination] but found [JioMart Electronic Online Shopping]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [JioMart: India's online shopping destination] but found [JioMart Electronic Online Shopping]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at navbar_buttons.Navbar_actions.print_subtotal(Navbar_actions.java:84)
+at navbar_buttons.Electronics_moduletest.print_subtotal(Electronics_moduletest.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_subtotal -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:10:00 IST" name="getResult" finished-at="2023-05-18T15:10:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=print_subtotal status=FAILURE method=Electronics_moduletest.print_subtotal()[pri:7, instance:navbar_buttons.Electronics_moduletest@34f7cfd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="beauty_module()[pri:8, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:10:00 IST" name="beauty_module" finished-at="2023-05-18T15:10:02 IST" duration-ms="2845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beauty_module -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:10:02 IST" name="getResult" finished-at="2023-05-18T15:10:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=beauty_module status=SUCCESS method=Electronics_moduletest.beauty_module()[pri:8, instance:navbar_buttons.Electronics_moduletest@34f7cfd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="gotocart1()[pri:9, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:10:02 IST" name="gotocart1" finished-at="2023-05-18T15:10:06 IST" duration-ms="3478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotocart1 -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:10:06 IST" name="getResult" finished-at="2023-05-18T15:10:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gotocart1 status=SUCCESS method=Electronics_moduletest.gotocart1()[pri:9, instance:navbar_buttons.Electronics_moduletest@34f7cfd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="EndTest()[pri:0, instance:navbar_buttons.Electronics_moduletest@34f7cfd9]" started-at="2023-05-18T15:10:06 IST" name="EndTest" finished-at="2023-05-18T15:10:07 IST" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+      </class> <!-- navbar_buttons.Electronics_moduletest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.32 sec <<< FAILURE! - in TestSuite
+add_item3(navbar_buttons.Electronics_moduletest)  Time elapsed: 7.595 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=113.0.5672.94)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [287f96eee6b5b24fd039038cf6a7c6b9, clickElement {id=8C26CA865E98844D9341C07C0FC4B241_element_635}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.94, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\skumari\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50112/devtoo..., se:cdpVersion: 113.0.5672.94, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (287f96eee6b5b24fd039038cf6a7c6b9)] -> xpath: //button[@type='button' and text()=' Skip & Continue ']]
+Session ID: 287f96eee6b5b24fd039038cf6a7c6b9
+	at navbar_buttons.Electronics_moduletest.add_item3(Electronics_moduletest.java:75)
+
+print_subtotal(navbar_buttons.Electronics_moduletest)  Time elapsed: 2.047 sec  <<< FAILURE!
+java.lang.AssertionError: expected [JioMart: India's online shopping destination] but found [JioMart Electronic Online Shopping]
+	at navbar_buttons.Electronics_moduletest.print_subtotal(Electronics_moduletest.java:91)
+
